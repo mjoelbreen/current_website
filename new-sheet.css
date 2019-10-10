@@ -1,0 +1,346 @@
+* {
+    font: 18px  "Work Sans", Roboto, Arial, sans-serif;
+}
+
+html,
+body {
+    font: 1rem  Work Sans, Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+.main {
+    overflow-x: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    background: no-repeat;
+    z-index: 0;
+}
+
+h1 {
+    font: 6rem Francois One, Work Sans, Roboto, Verdana, Arial, sans-serif;
+    color: whitesmoke;
+    border: 5px solid hsl(260, 100%, 65%);
+    border-radius: 20px;
+    background-color: black;
+    position: relative;
+    display: block;
+    width: 30%;
+    height: auto;
+    font-weight: 400;
+    text-align: center;
+    margin: 10% auto;
+    z-index: 1;
+    min-width: 500px;
+}
+
+.subheader {
+    display: block;
+    font: 2rem Merriweather Sans, Roboto, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:hsla(250, 0%, 0%, 0.85);
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    padding: 5% 0%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.caption {
+    font: 0.5rem, Merriweather Sans, Georgia, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    margin: 0 auto;
+}
+
+p.description {
+    font: 11pt Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 10px;
+    line-height: 14pt;
+}
+
+h3 {
+    font: 2rem Roboto, Arial, sans-serif;
+    position: relative;
+    margin: 1% 
+}
+
+img.head {
+    padding-top: 1%;
+    width: 75%;
+    
+    display: block;
+}
+
+img.museum {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border: 15px solid hsl(260, 100%, 65%);
+}
+
+iframe {
+    display: block;
+    margin: 1% auto;
+    border: 15px solid hsl(260, 100%, 65%);
+}
+hr {
+    position: relative;
+    display: block;
+    border: 25px solid hsl(150, 75%, 60%);
+    margin-top: 5%;
+    margin-bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+a:hover, a:active {
+    color:  hsl(150, 75%, 60%);
+    text-decoration: underline;
+}
+
+
+
+
+
+.navbar {
+    position: sticky;
+    top: 0%;
+    display: flex;
+    background-color:black;
+    width: 100%;
+    justify-content: center;
+    z-index: 2;
+    overflow: hidden;
+    
+  
+}
+
+.navigation {
+    position: relative;
+    list-style-type: none;
+    display: inline-flex;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.navigation li {
+    position: relative;
+    display: flex;
+    align-items: space-between;
+    float: left;
+    overflow: hidden;
+}
+
+.navigation li + li {
+    margin-left: 35px;
+}
+
+
+
+
+.tabs {
+    position: relative;
+    list-style: none;
+    text-decoration: unset;
+    color: hsl(260, 100%, 65%);
+    font: 1.5rem "Work Sans", Roboto, sans-serif;
+    font-weight: bold;
+    display: flex;
+    text-align: left;
+    
+}
+
+.category {
+    font: 4rem "Francois One", Roboto, Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    display: inline-block;
+    margin: 5% 0 2% 10%;
+}
+
+.category_white {
+    font: 4rem "Francois One", Roboto, Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: 5% 0 2% 10%;
+
+}
+
+.media {
+    font: 2rem Roboto, Arial, sans-serif;
+    font-style: italic;
+    color: black;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 2% auto 3% auto;
+}
+
+
+.contentbox {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    background-color: white;
+    overflow: hidden;
+   
+}
+
+.skillsbox {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 20%);
+    overflow: hidden;    
+}
+
+.cover_photo {
+    position: relative;
+    float: right;
+    width: 250px;
+    height: 250px;
+    margin: 10% 15% 10% 2%;
+    background-color: white;
+    border: 5px solid hsl(260, 100%, 65%);
+    border-radius: 50%;
+    transform: rotate(90deg);
+}
+
+.body_text_black {
+    position: relative;
+    display: flex;
+    font: 1.25rem  Work Sans, Roboto, Arial, sans-serif;
+    color: black;
+    text-align: left;
+    margin: 5% 0 2% 10%;
+}
+
+.media_description {
+    position: relative;
+    display: flex;
+    font: 1.25rem Work Sans, Roboto, Arial, sans-serif;
+    color: black;
+    text-align: center;
+    margin: 2% 0 2% 15%; 
+}
+
+.media_white {
+    font: 2rem Roboto, Arial, sans-serif;
+    font-style: italic;
+    color: white;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 2% auto 3% auto;
+
+}
+
+h3 {
+    position: relative;
+    display: block;
+    font: 2rem Merriweather Sans, Work Sans, Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 2% auto;
+}
+
+#codelist {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 5% auto;
+    
+}
+#scriptlist {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 2% 10% 2% 10%;
+    font: 2.5rem Roboto, Work Sans, Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+#skills_list {
+    font: 2rem "Merriweather Sans", "Work Sans", Arial, sans-serif;
+    color: white;
+    position: relative;
+    margin-left: 10%;
+
+}
+
+
+
+
+
+.work {
+    position: relative;
+    display: block;
+    color: white;
+    font: 1.5rem Merriweather Sans, Work Sans, Arial, sans-serif;
+    margin: 5% 10%;
+}
+
+#coffee_shop {
+    position: relative;
+    display: block;
+    margin: 2% auto 1% auto;
+    width: 50%;
+    height: auto;
+    border: 15px solid hsl(260, 100%, 65%);
+}
+
+
+
+footer {
+    position: relative;
+    font-size: 1rem;
+    color: black;
+    font: "Merriweather Sans", "Work Sans", Arial, sans-serif;
+    font-weight: bold;
+    background-color:hsl(150, 75%, 60%);
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1.5% 0%;
+    text-align: center;
+    overflow: hidden;
+   
+}
+
